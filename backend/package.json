@@ -1,0 +1,20 @@
+{
+  "name": "ticket-backend",
+  "version": "1.0.0",
+  "description": "Backend do Sistema de Gerenciamento de Tickets (Helpdesk)",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "cors": "^2.8.5",
+    "bcryptjs": "^2.4.3",
+    "zod": "^3.24.2"
+  },
+  "optionalDependencies": {
+    "better-sqlite3": "^11.8.1"
+  }
+}

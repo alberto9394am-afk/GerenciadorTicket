@@ -1,0 +1,12 @@
+{
+  "name": "ticket-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sistema de Gestão de Tickets (Helpdesk)",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "test:backend": "node backend/test_api.js"
+  }
+}
